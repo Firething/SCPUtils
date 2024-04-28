@@ -568,6 +568,8 @@ namespace SCPUtils
 
         public string SetcolorRainbow { get; private set; } = "rainbow";
 
+        public string NoRainbowPermission { get; private set; } = "<color=red>You do not have scputils.rainbowtag permission. If this is an error contact server owner</color>";
+
         [Description("Setname command:")]
 
         public string SetnameCommand { get; private set; } = "scputils_set_name";

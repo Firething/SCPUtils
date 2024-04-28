@@ -103,10 +103,16 @@ namespace SCPUtils.Commands
             Exiled.API.Features.Player player = Exiled.API.Features.Player.Get(target);
 
             if (color == "rainbow" || color == "random" || color == ScpUtils.StaticInstance.Translation.SetcolorRainbow.ToLower())
-            {
+            {               
                 if (!ScpUtils.StaticInstance.Config.AllowRainbowTags)
                 {
                     response = ScpUtils.StaticInstance.Translation.SetcolorRainbowdisabled;
+                    return false;
+                }
+
+                if (!sender.CheckPermission("scputils.rainbowtag"))
+                {
+                    response = ScpUtils.StaticInstance.Translation.NoRainbowPermission;
                     return false;
                 }
             }
