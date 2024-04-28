@@ -564,6 +564,7 @@ namespace SCPUtils
         public string SetcolorRainbowdisabled { get; private set; } = "<color=red>Random/Rainbow roles are disabled by server owner!</color>";
 
         public string SetcolorGlobalbadge { get; private set; } = "<color=red>This user has a global badge, as VSR rules you cannot change global badge colors, if you have a local badge please set it and try using this command again</color>";
+       
         public string SetcolorRestrictedcolor { get; private set; } = "<color=red>This color has been restricted by server owner, please use another color!</color>";
 
         public string SetcolorRainbow { get; private set; } = "rainbow";

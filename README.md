@@ -44,7 +44,7 @@ You can see settings and edit them inside Exiled/port-config.yml file(example Ex
 | scputils_player_list  | minimun percentage  | scputils.playerlist | List all players with a percetage equal or higher of quits/suicides |
 | scputils_player_reset  | player / id / userid  | scputils.playerreset  | Reset warns,suicides,bans,kick and games played stats |
 | scputils_player_reset_preferences  | player / id / userid  | scputils.playerresetpreferences  | Reset nickname,badge color,show badge preference |
-| scputils_set_color  | <player / id / userid> <color/None>   | scputils.playersetcolor  | Change player color |
+| scputils_set_color  | <player / id / userid> <color/None>   | scputils.playersetcolor + scputils.rainbowtag | Change player color |
 | scputils_set_name  | <player / id / userid> <name/None>   | scputils.playersetname  | Change player name, changes take effects next round/rejoin |
 | scputils_set_badge  | <player / id / userid> <badge name> <duration in minutes> | scputils.handlebadges | Add a temp player badge |
 | scputils_revoke_badge  | <player / id / userid> | scputils.handlebadges | Revoke a badge given to a player |
