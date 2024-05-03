@@ -232,7 +232,7 @@ s_c_p_utils:
   - 'scpu_hb'
   - 'scpu_hbadge'
   - 'scpu_hideb'
-  hidebadge_description: 'Esconde seu cargo permanente até que você execute o scputils_show_badge ou suas aliases'
+  hidebadge_description: 'Esconde seu cargo permanentemente até que você execute o scputils_show_badge ou suas aliases'
   # Info command:
   info_command: 'scputils_info'
   info_aliases:
