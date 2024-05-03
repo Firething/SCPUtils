@@ -207,7 +207,7 @@ s_c_p_utils:
   - 'scpu_gedit'
   - 'scpu_globaledit'
   - 'scpu_ge'
-  globaledit_description: 'Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos de cada jogador presente no DB'
+  globaledit_description: 'Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos de cada jogador presente na DB'
   # Help command:
   help_command: 'scputils_help'
   help_aliases:
@@ -344,7 +344,7 @@ s_c_p_utils:
   - 'su_playerlist'
   - 'scpu_pl'
   - 'scpu_playerlist'
-  playerlist_description: 'Exibe a lista de jogadores no banco de dados do SCPUtils com algumas informações básicas. Não use valores como 0, se não a lista pode ficar gigantesca'
+  playerlist_description: 'Exibe a lista de jogadores no banco de dados do SCPUtils com algumas informações básicas. Não use valores como 0, senão a lista pode ficar gigantesca'
   # Reset command:
   reset_command: 'scputils_player_reset'
   reset_aliases:
@@ -355,7 +355,7 @@ s_c_p_utils:
   - 'scpu_pr'
   - 'scpu_playerreset'
   - 'scpu_playereset'
-  reset_description: 'Redefine os dados do jogador (Saídas,Banimentos,Expulsões,Apelidos,Cargos etc, tudo)!'
+  reset_description: 'Redefine os dados do jogador (Saídas,Banimentos,Expulsões,Apelidos,Cargos, etc., tudo)!'
   # Resetpreferences command:
   resetpreferences_command: 'scputils_player_reset_preferences'
   resetpreferences_aliases:
@@ -368,7 +368,7 @@ s_c_p_utils:
   - 'scpu_playerpreferences'
   - 'scpu_player_preferences'
   - 'scpu_player_reset_preferences'
-  resetpreferences_description: 'Redefine as preferências do jogador (Apelido, cargos etc)!'
+  resetpreferences_description: 'Redefine as preferências do jogador (Apelido, cargos, etc.)!'
   # Restrict command:
   restrict_command: 'scputils_player_restrict'
   restrict_aliases:
@@ -469,7 +469,7 @@ s_c_p_utils:
   - 'su_scplist'
   - 'scpu_scplist'
   scplist_description: 'Exibe a lista de SCPs'
-  scplist_no_scp: 'Você não é um SCP ou o módulo Swap foi desativado pelo administrador do servidor!'
+  scplist_no_scp: 'Você não é um SCP ou o módulo de Troca foi desativado pelo administrador do servidor!'
   # Searchip command:
   searchip_command: 'scputils_search_ip'
   searchip_aliases:
@@ -510,7 +510,7 @@ s_c_p_utils:
   setcolor_invalidcolor: '<color=red> Cor inválida, escreva color no console para ver cores válidas no SCP<color>'
   setcolor_rainbowdisabled: '<color=red>Cargos aleatórios/arco-íris foram desativados pelo dono do servidor!</color>'
   setcolor_globalbadge: '<color=red>Esse usuário tem um cargo global, pelas regras do VSR você não pode mudar as cores de cargos globais. Se você possui um cargo local, por favor defina-o e tente utilizar esse comando novamente.</color>'
-  setcolor_restrictedcolor: '<color=red>Essa cor foi restrita pelo dono do servidor, por favor, use outra cor!</color>'
+  setcolor_restrictedcolor: '<color=red>Essa cor foi restrita pelo dono do servidor. Por favor, use outra cor!</color>'
   setcolor_rainbow: 'arco-íris'
   # Setname command:
   setname_command: 'scputils_set_name'
@@ -525,7 +525,7 @@ s_c_p_utils:
   - 'scpu_cn'
   setname_description: 'Muda o nome de todos ou apenas seu baseado nas permissões que você tem'
   setname_argnickname: '<Nickname / None>'
-  setname_taken: '<color=red>Esse apelido já é usado por outro jogador, por favor, escolha outro nome!</color>'
+  setname_taken: '<color=red>Esse apelido já é usado por outro jogador. Por favor, escolha outro nome!</color>'
   setname_toolong: '<color=red>O apelido é muito longo!</color>'
   # Roundban command:
   roundban_command: 'scputils_set_round_ban'
@@ -585,7 +585,7 @@ s_c_p_utils:
   - 'scpu_staffl'
   - 'scpu_staff_l'
   - 'scpu_slist'
-  stafflist_description: 'Exibe uma lista de membros de sua equipe ativos.'
+  stafflist_description: 'Exibe uma lista de membros da sua equipe ativos.'
   # Swaprequest command (check main configs for more customization):
   swaprequest_description: 'Envia um pedido de troca de SCP para um jogador'
   swaprequest_disabled: '<color=yellow>O módulo de SCP swap está desativado nesse servidor!</color>'
