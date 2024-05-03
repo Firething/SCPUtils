@@ -106,21 +106,21 @@ s_c_p_utils:
   - 'su_alias'
   - 'scpu_alias'
   - 'alt'
-  alias_description: 'Check player aliases with some basic info, for complete info use dupeip'
+  alias_description: 'Verifica apelidos do jogador junto de algumas informações básicas. Para informações completas, use dupeip'
   # Unwhitelist command:
   unwhitelist_command: 'scputils_unwhitelist_asn'
   unwhitelist_aliases:
   - 'asunw'
   - 'su_uwl_asn'
   - 'scpu_uwl_asn'
-  unwhitelist_description: 'Un-Whitelist a player to disallow him access the server if ASN is blacklisted!'
+  unwhitelist_description: 'Retira um jogador da Whitelist para impossibilitá-lo de entrar no servidor se a ASN estiver na lista negra!'
   # AsnWhitelist command:
   asnwhitelist_command: 'scputils_whitelist_asn'
   asnwhitelist_aliases:
   - 'asnw'
   - 'su_wl_asn'
   - 'scpu_wl_asn'
-  asnwhitelist_description: 'Whitelist a player to make him access the server even if ASN is blacklisted!'
+  asnwhitelist_description: 'Coloca um jogador na Whitelist para fazer com que ele possa entrar no servidor se a ASN estiver na lista negra!'
   # Badgeplaytime command:
   badgeplaytime_command: 'scputils_badge_play_time'
   badgeplaytime_aliases:
@@ -129,14 +129,14 @@ s_c_p_utils:
   - 'su_tpt'
   - 'scpu_badgeplaytime'
   - 'scpu_bpt'
-  badgeplaytime_description: 'Shows the playing time of all players who have that badge.'
-  badgeplaytime_checking: 'Checking playtime of badge'
-  badgeplaytime_nullplayer: 'Null player detected, this usually happens if you have a player in remoteadmin file while he has not joined the server yet.'
-  badgeplaytime_no_activity: 'Playtime: [ No activity ]'
-  badgeplaytime_playtime: 'Playtime:'
-  badgeplaytime_daysjoined: 'Days joined:'
-  badgeplaytime_overwatchtime: 'Overwatch time:'
-  badgeplaytime_overwatchdays: 'Overwatch days:'
+  badgeplaytime_description: 'Exibe o tempo de jogo de todos jogadores que têm esse cargo..'
+  badgeplaytime_checking: 'Verificando tempo de jogo do cargo'
+  badgeplaytime_nullplayer: 'Nenhum jogador detectado, isso geralmente ocorre quando você tem um jogador na pasta remoteadmin enquanto ele ainda não entrou no servidor.'
+  badgeplaytime_no_activity: 'Playtime: [ Nenhuma atividade ]'
+  badgeplaytime_playtime: 'Tempo de jogo:'
+  badgeplaytime_daysjoined: 'Dias entrados:'
+  badgeplaytime_overwatchtime: 'Tempo como Supervisor:'
+  badgeplaytime_overwatchdays: 'Dias como Supervisor:'
   # Broadcast command:
   broadcast_command: 'scputils_broadcast'
   broadcast_aliases:
