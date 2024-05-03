@@ -207,7 +207,7 @@ s_c_p_utils:
   - 'scpu_gedit'
   - 'scpu_globaledit'
   - 'scpu_ge'
-  globaledit_description: '!Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos de cada jogador presente no DB'
+  globaledit_description: 'Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos de cada jogador presente no DB'
   # Help command:
   help_command: 'scputils_help'
   help_aliases:
