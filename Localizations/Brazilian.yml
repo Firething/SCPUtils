@@ -60,7 +60,7 @@ s_c_p_utils:
   # Success:
   success: '<color=green>Sucesso</color>'
   # Invalid argument:
-  invalid_arg: '<color=red>Argumento inválido, cheque o uso do comando!</color>'
+  invalid_arg: '<color=red>Argumento inválido, verifique o uso do comando!</color>'
   # Invalid argument int:
   invalid_arg_int: '<color=red>O argumento deve ser uma integral!</color>'
   # None argument:
