@@ -86,7 +86,7 @@ s_c_p_utils:
   # SCP-Warn staff BC
   scp_warn_staff_bc: '<color=blue><SCPUtils> %nick%(%scp%) recebeu um <color=red>AVISO</color> por Sair ou Suicidar-se como SCP</color>'
   # Global badge error
-  global_badge_console_error: 'Você tem uma cor personalizada atribuída mas possui um cargo global. Pelas regras do VSR, sua cor customizada não será utilizável!'
+  global_badge_console_error: 'Você tem uma cor personalizada atribuída mas possui um cargo global. Pelas regras do VSR, sua cor personalizada não será utilizável!'
   # NoUsergroup error
   no_usergroup_error: 'Você tem um cargo personalizado atribuído mas não possui um grupo de usuário base. Seu grupo personalizado não será visível caso você tenha um, contate a equipe do servidor para mais informações!'
   # NoUsergroup error
