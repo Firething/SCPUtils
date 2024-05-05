@@ -1,6 +1,6 @@
 s_c_p_utils:
 # Translation credits:
-  translation_credits: 'Transcrição brasileira feita por Firething'
+  translation_credits: 'Tradução brasileira feita por Firething'
   # --- Generic translations --- 
   #  
   #  Insufficient permission:
@@ -207,7 +207,7 @@ s_c_p_utils:
   - 'scpu_gedit'
   - 'scpu_globaledit'
   - 'scpu_ge'
-  globaledit_description: 'Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos de cada jogador presente na DB'
+  globaledit_description: 'Exclui uma quantidade específica de jogos / avisos / expulsões / banimentos como SCP de cada jogador presente na DB'
   # Help command:
   help_command: 'scputils_help'
   help_aliases:
