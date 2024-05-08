@@ -331,7 +331,7 @@ s_c_p_utils:
   playerinfo_overwatchtime: 'Tempo como Supervisor Total:'
   playerinfo_cooldown: 'Recarga de apelido:'
   playerinfo_overwatch: 'Supervisor ativo:'
-  playerinfo_restricted: '<color=red>Conta do usuário está atualmente restringida</color>'
+  playerinfo_restricted: '<color=red>Conta do usuário está atualmente restrita</color>'
   playerinfo_reason: 'Motivo:'
   playerinfo_expire: 'Expira:'
   playerinfo_roundsleft: 'Partida(s) faltando:'
@@ -510,7 +510,7 @@ s_c_p_utils:
   setcolor_invalidcolor: '<color=red> Cor inválida, escreva color no console para ver cores válidas no SCP<color>'
   setcolor_rainbowdisabled: '<color=red>Cargos aleatórios/arco-íris foram desativados pelo dono do servidor!</color>'
   setcolor_globalbadge: '<color=red>Esse usuário tem um cargo global, pelas regras do VSR você não pode mudar as cores de cargos globais. Se você possui um cargo local, por favor defina-o e tente utilizar esse comando novamente.</color>'
-  setcolor_restrictedcolor: '<color=red>Essa cor foi restrita pelo dono do servidor. Por favor, use outra cor!</color>'
+  setcolor_restrictedcolor: '<color=red>Essa cor foi restringida pelo dono do servidor. Por favor, use outra cor!</color>'
   setcolor_rainbow: 'arco-íris'
   # Setname command:
   setname_command: 'scputils_set_name'
